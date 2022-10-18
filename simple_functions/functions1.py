@@ -1,6 +1,6 @@
 import numpy as np
 
-__all__ = ['my_sum']
+__all__ = ["my_sum"]
 
 
 def my_sum(iterable):
@@ -8,6 +8,7 @@ def my_sum(iterable):
     for i in iterable:
         tot += i
     return tot
+
 
 def my_sin(x):
     return np.sin(x)
